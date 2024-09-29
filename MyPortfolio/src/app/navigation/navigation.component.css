@@ -1,0 +1,32 @@
+.navMargin {
+    height: 5vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    top:0px;
+    left: 0px;
+
+}
+
+.nav-contents{
+    padding: 1vw;
+}
+
+.left-last{
+    padding-right: 45vw;
+}
+
+
+
+@media screen and (max-width:915px) {
+    .navMargin {
+        background-color: red;
+    }
+    .left-last{
+        padding-right: 1vw;
+    }
+}

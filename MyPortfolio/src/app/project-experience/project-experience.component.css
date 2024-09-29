@@ -1,0 +1,66 @@
+.experience{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.exp-projects {
+    
+    /* height: 50vh; */
+    width: 80vw;
+    position: relative;
+    z-index: 2;
+    overflow: scroll;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.projects-list{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    
+    /* overflow: hidden; */
+}
+
+.pj-title{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.47);
+    /* width: 400px; */
+}
+
+.card{
+    margin: 4px;
+}
+.technology{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 80%;
+    background-image:url("https://img.icons8.com/?size=100&id=Fycm8TUhWmFU&format=png&color=000000");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 255, 0.311);
+    margin-left: 1px;
+    margin-right: 1px;
+    box-sizing: content-box;
+}
+.technologies-stacks{
+    width: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0.701) 0%, rgba(255, 244, 244, 0.603) 25%, rgba(170, 163, 163, 0.51) 50%, rgba(124, 123, 123, 0.055) 75%, rgba(79, 79, 79, 0) 100%);;
+}
+.comp-title:hover{
+    color: blue;
+    animation: translateX(calc(-250px * 5));
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
